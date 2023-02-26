@@ -1,2 +1,2 @@
-# C-
-C# studies
+# C#
+studies
