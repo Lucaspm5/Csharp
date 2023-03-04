@@ -10,11 +10,11 @@ namespace Teste
     {
         static void Main(string[] args)
         {
-            int a, b, x;
-            a = int.Parse(Console.ReadLine());
-            b = int.Parse(Console.ReadLine());
-            x = a + b;
-            Console.WriteLine("X = " + x);
+            double a, b, media;
+            a = double.Parse(Console.ReadLine());
+            b = double.Parse(Console.ReadLine());
+            media = ((a * 3.5) + (b * 7.5)) / 11.0;
+            Console.WriteLine("MEDIA = " + media.ToString("F5"));
         }
     }
    
